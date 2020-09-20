@@ -2,4 +2,3 @@ streamlit==0.66.0
 pandas==0.25.1
 numpy==1.16.5
 scikit-learn==0.23.2
-pip freeze > requirements.txt
