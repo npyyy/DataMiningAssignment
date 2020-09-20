@@ -7,7 +7,7 @@ import seaborn as sns
 st.title('Laundry Dataset')
 
 st.header('Read data and convert column to upper letter')
-df = pd.read_csv("Laundry_data.csv")
+df = pd.read_csv("Laundry_Data.csv")
 df.columns = df.columns.str.upper()
 st.success('Done reading and converting upper letter')
 
